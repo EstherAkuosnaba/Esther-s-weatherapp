@@ -1,6 +1,8 @@
 .weather-bg {
     margin: 15px;
     display: block;
+    color: white;
+
 }
 
 .output {
@@ -19,6 +21,8 @@
 
 .temp-w > h1{
     margin-left: 100px;
+    color: white;
+
 }
 
 img {

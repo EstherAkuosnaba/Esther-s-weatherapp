@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import './Climate.css';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {useHistory} from 'react-router-dom';
 
 
 function Climate() {
