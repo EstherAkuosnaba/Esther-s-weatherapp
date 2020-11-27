@@ -1,0 +1,27 @@
+.weather-bg {
+    margin: 15px;
+    display: block;
+}
+
+.output {
+    margin: auto;
+    display: flex;
+    width: 1000px;
+    height: 1000px;
+    justify-content: space-between;
+    padding-top: 350px;
+}
+
+.temp {
+    display: flex;
+    justify-content: right;
+}
+
+.temp-w > h1{
+    margin-left: 100px;
+}
+
+img {
+    margin-right: 10px;
+}
+
