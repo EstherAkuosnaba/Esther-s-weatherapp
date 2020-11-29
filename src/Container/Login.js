@@ -13,7 +13,7 @@ function Login() {
                     <input type="text" name="username" placeholder="Username" />
                     <input type="text" name="email" placeholder="E-mail" />
                     <input type="password" name="password" placeholder="Password" />
-                    <input type="password" name="password2" placeholder="Retype password" />
+                    <input type="password" name="password2" placeholder="comfirm password" />
 
                     <input type="submit" name="signup_submit" value="Sign me up" />
                    
@@ -23,14 +23,14 @@ function Login() {
                 <div class="right">
                     <span class="loginwith">Sign in with<br />social network</span>
 
-                    <button class="social-signin facebook">Log in with facebook</button>
-                    <button class="social-signin twitter">Log in with Twitter</button>
-                    <button class="social-signin google">Log in with Google+</button>
+                    <button class="social-signin facebook">Signin with facebook <i class='bx bxl-facebook-circle'></i></button>
+                    <button class="social-signin twitter"><i class='bx bxl-twitter'></i>signin with twitter </button>
+                    <button class="social-signin google">signin with google<box-icon type='logo' name='google'></box-icon></button>
+                    <button id="dee" class="social-signin instagram">signin with instagram<box-icon name='instagram' type='logo' ></box-icon></button>
                     <span>
                         <Link to='/weather'><button class="check">Check Weather</button></Link>
                     </span>
                 </div>
-                <div class="or">OR</div>
             </div>
         </div>
     )

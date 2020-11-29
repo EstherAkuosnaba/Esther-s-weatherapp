@@ -35,7 +35,7 @@ function Climate() {
     return (
         <div className='weather-bg'>
             <form>
-                <div class="form-row align-items-center">
+                <div class="form-row align-items-left">
                     <div class="col-auto">
                         <label class="sr-only" for="inlineFormInput">Name</label>
                         <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Country"  onChange={handleCountry} value={country}/>

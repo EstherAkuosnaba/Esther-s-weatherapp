@@ -1,0 +1,8 @@
+#navbut {
+    color: white;
+}
+
+#navbut:hover {
+    background-color: white;
+    color: black;
+}
